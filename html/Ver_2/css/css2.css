@@ -1,0 +1,121 @@
+/* Главная страница */
+body{
+    height: 2000px;
+    background-color: rgb(227, 227, 227);
+    zoom: 80%;
+}
+.panel{
+    height: 50px;
+    background-color: rgb(227, 227, 227);
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    right: 1px;
+}
+.icon {
+    position: absolute;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.icon a{
+    text-decoration: none;
+    margin-top: -30px;
+}
+#But_them{
+    color: black;
+    background-color: rgb(255, 200, 0);
+    cursor: pointer;
+    margin-left: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.pos a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300px;
+    padding: 10px 50px;
+}
+
+.pos{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* Книги */
+
+
+
+.book{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.book img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px rgb(157, 157, 157) solid;
+    box-shadow: 0px 0px 4px rgb(157, 157, 157);
+}
+
+.book p{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 140px;
+    width: 800px;
+}
+.books{
+    margin-top: 400px;
+    margin-left: 210px;
+}
+
+.button1 {
+    border-color: #763002;
+    border-radius: 0;
+    color: #763002;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+  }
+  .button1:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #763002;
+    z-index: -1;
+    -webkit-transition: width 300ms ease-in-out;
+    transition: width 300ms ease-in-out;
+  }
+  .button1:hover {
+    color: #fff;
+  }
+  .button1:hover:after {
+    width: 110%;
+  }
