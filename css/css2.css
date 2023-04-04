@@ -2,6 +2,7 @@
 body{
     height: 2000px;
     background-color: rgb(227, 227, 227);
+    zoom: 80%;
 }
 .panel{
     height: 50px;
@@ -17,7 +18,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 1000;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 0px;
 }
 .icon a{
@@ -86,3 +87,35 @@ body{
     margin-top: 400px;
     margin-left: 210px;
 }
+
+.button1 {
+    border-color: #763002;
+    border-radius: 0;
+    color: #763002;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+  }
+  .button1:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #763002;
+    z-index: -1;
+    -webkit-transition: width 300ms ease-in-out;
+    transition: width 300ms ease-in-out;
+  }
+  .button1:hover {
+    color: #fff;
+  }
+  .button1:hover:after {
+    width: 110%;
+  }

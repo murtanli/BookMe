@@ -1,6 +1,7 @@
 
 body {
     background-color: rgb(227, 227, 227);
+    zoom: 80%;
 }
 
 
@@ -77,3 +78,4 @@ body {
     cursor: pointer;
     border: 1px solid rgb(195, 195, 195);
 }
+
