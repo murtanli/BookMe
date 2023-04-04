@@ -111,3 +111,31 @@ body{
   .button1:hover:after {
     width: 110%;
   }
+
+  .book{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.book img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px rgb(157, 157, 157) solid;
+    box-shadow: 0px 0px 4px rgb(157, 157, 157);
+}
+
+.book p{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 140px;
+    width: 800px;
+}
+.books{
+    margin-top: 400px;
+    margin-left: 210px;
+}
